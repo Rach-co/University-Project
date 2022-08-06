@@ -42,13 +42,13 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/#home' className='nav-links' onClick={closeMobileMenu}>
                 Admissions
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/about'
+                to='#about'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -57,7 +57,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='#study'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -66,7 +66,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='#research'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -103,7 +103,7 @@ function Navbar() {
             <li className='nav-item'>
              <form clasName="search-form">
                 <input type="text" placeholder="search"/>
-                <button type="submit"><AiOutlineSearch className="search-icon" /></button>
+                <button type="submit" className="btn"><AiOutlineSearch className="search-icon" /></button>
               </form>
             </li>
           </ul>
