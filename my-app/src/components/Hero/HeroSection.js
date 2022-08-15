@@ -1,7 +1,6 @@
 import React from 'react';
 import './herosection.css';
 import '../../App.css';
-// import Button from 'react-bootstrap/Button';
 
 
 function HeroSection () {
@@ -19,4 +18,4 @@ function HeroSection () {
     )
 }
 
-export default HeroSection
+export default HeroSection;
