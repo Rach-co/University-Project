@@ -1,0 +1,113 @@
+.study__button {
+    padding: 20px 0px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+} 
+  
+.white {
+     color: #fff !important;
+}
+ 
+.d__flex {
+    display: flex;
+}
+ 
+.row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.study__heading {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 67px;
+    color: #1D2939;
+    margin-bottom: 30px;
+    text-align: start;
+
+}
+
+.study__text {
+    margin-bottom: 15px;
+}
+
+.study__meta {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+.col__3{
+    max-width: 50%;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.study__space {
+    padding: 70px 0;
+}
+ 
+.pointer {
+    cursor: pointer;
+}
+ 
+
+.study__button .button {
+    background-color: #473558;
+    text-transform: capitalize;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 32.74px;
+    border: 1px solid #473558;
+    cursor: pointer;
+    width: 170px;
+}
+
+.study__button .button:hover {
+    background:#fff;
+    color: #473558;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .col__3 {
+        max-width: 100%;
+       }
+
+    
+       .responsive {
+        height: auto;
+        width: 100%;
+    }
+
+ }
+
+ @media only screen and (max-width: 500px) {
+     
+   
+    
+}
+
+@media only screen and (max-width: 400px) {
+   
+   
+}
+
