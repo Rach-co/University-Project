@@ -12,10 +12,6 @@
      color: #fff !important;
 }
  
-.d__flex {
-    display: flex;
-}
- 
 .row {
     display: flex;
     width: 100%;
@@ -38,6 +34,8 @@
 
 .study__text {
     margin-bottom: 15px;
+    font-size: 15px;
+
 }
 
 .study__meta {
@@ -50,14 +48,13 @@
 .col__3{
     max-width: 50%;
     display: flex;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
     justify-content: center;
     flex-direction: column;
 }
 
-.study__space {
-    padding: 70px 0;
-}
+
+
  
 .pointer {
     cursor: pointer;
@@ -90,24 +87,15 @@
 @media only screen and (max-width: 1024px) {
     .col__3 {
         max-width: 100%;
-       }
+    }
 
     
-       .responsive {
+    .responsive {
+        margin-top: 15px;
         height: auto;
         width: 100%;
     }
 
  }
 
- @media only screen and (max-width: 500px) {
-     
-   
-    
-}
-
-@media only screen and (max-width: 400px) {
-   
-   
-}
 
