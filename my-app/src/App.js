@@ -8,6 +8,7 @@ import Record from './components/Records/Record';
 import Facilities from './components/Facilities/Facilities';
 import Updates from './components/Updates/Updates';
 import Apply from './components/Apply/Apply';
+import Events from './components/Events/Events';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Facilities />
       <Updates />
       <Apply />
+      <Events />
     </>
   );
 }
