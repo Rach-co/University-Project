@@ -54,7 +54,9 @@
 }
 
 
-
+.study__space {
+    padding: 40px 40px 0 40px ;
+}
  
 .pointer {
     cursor: pointer;
@@ -89,7 +91,11 @@
         max-width: 100%;
     }
 
-    
+    .study__space {
+        padding: 0;
+        
+     }
+
     .responsive {
         margin-top: 15px;
         height: auto;

@@ -7,6 +7,7 @@ import Study from './components/Study/Study';
 import Record from './components/Records/Record';
 import Facilities from './components/Facilities/Facilities';
 import Updates from './components/Updates/Updates';
+import Apply from './components/Apply/Apply';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Record />
       <Facilities />
       <Updates />
+      <Apply />
     </>
   );
 }
