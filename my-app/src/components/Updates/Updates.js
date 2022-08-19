@@ -10,7 +10,7 @@ function Updates () {
       <section id="updates">
           <div className="updates updates__space">
                 <div className="container">
-                      <div className="col__6a">
+                      <div className="updates__cola">
                          <h1 className="facilities__heading">
                              News & Updates
                         </h1>
@@ -20,36 +20,36 @@ function Updates () {
 
                         <div className="updates__row">
                         
-                          <div className="col__6">
+                          <div className="updates__col">
                               <div className="gallery">
                                    <img src={Img1} className="updates__image" alt=""/>
                                    <div className="updates__description">
                                       Seven Heritage academics elected British Academy fellows                   
                                   </div>
-                                  <div className="updates__more">Read more</div>
+                                  <a href="#" className="updates__more">Read more</a>
                                  <div className="updates__date">22 Aug 2022</div>
                               </div>
                           </div>
 
-                          <div className="col__6">
+                          <div className="updates__col">
                               <div className="gallery">
                                   <img src={Img2} className="updates__image" alt=""/>
                                   <div className="updates__description">
-                                     The researchers at Heritage help create the most complete polygenic tree
+                                     The researchers at Heritage help create the complete polygenic tree
                                   </div>
-                                 <div className="updates__more">Read more</div>
+                                  <a href="#" className="updates__more">Read more</a>
                                  <div className="updates__date">22 Aug 2022</div>
                               </div>
                           </div>
 
  
-                          <div className="col__6"> 
+                          <div className="updates__col"> 
                                <div className="gallery">
                                   <img src={Img3} className="updates__image" alt=""/>
                                   <div className="updates__description">
                                      A global MBA from the next generation of business leaders                   
                                   </div>
-                                  <div className="updates__more">Read more</div>
+                                  <a href="#" className="updates__more">Read more</a>
                                   <div className="updates__date">22 Aug 2022</div>
                               </div>
                           </div>
@@ -58,7 +58,7 @@ function Updates () {
 
                        
                     </div>
-                     <div className="col__6a">
+                     <div className="updates__cola">
                           <div className="updates__button d__flex align__items__center">
                               <button href="/" className="button">View More</button>
                          </div>

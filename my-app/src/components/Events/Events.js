@@ -7,7 +7,7 @@ function Events () {
         <section id="events">
           <div className="events events__space">
               <div className="container">
-                    <div className="col__7a">
+                    <div className="events__cola">
                        <h1 className="events__heading">
                           Upcoming events
                       </h1>
@@ -15,7 +15,7 @@ function Events () {
                        
                       <div className="events__row">
                       
-                        <div className="col__7">
+                        <div className="events__col">
                           <div className="events__logo">
                             <div className="events__details">
                                 <p className="events__date">17</p>
@@ -33,7 +33,7 @@ function Events () {
                      
                         </div>
 
-                        <div className="col__7">
+                        <div className="events__col">
                         <div className="events__logo">
                             <div className="events__details">
                                 <p className="events__date">20</p>
@@ -49,7 +49,7 @@ function Events () {
 
 
                       
-                        <div className="col__7">
+                        <div className="events__col">
                         <div className="events__logo">
                         <div className="events__details">
                                 <p className="events__date">14</p>
@@ -64,7 +64,7 @@ function Events () {
                         </div>
                      </div>
 
-                   <div className="col__7a">
+                   <div className="events__cola">
                         <div className="events__button d__flex align__items__center">
                             <button href="/" className="button">View More</button>
                        </div>

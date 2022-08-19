@@ -9,8 +9,8 @@ function Study () {
         <section id="study">
           <div className="study study__space">
                 <div className="container">
-                    <div className="row">
-                        <div className="col__3">
+                    <div className="study__row">
+                        <div className="study__col">
                         <h1 className="study__heading">
                          Why Choose <br /> University of Heritage
                       </h1>    
@@ -30,7 +30,7 @@ function Study () {
                             </div>
                         </div>
 
-                        <div className="col__3"> 
+                        <div className="study__col"> 
                      
                         <div className="study__image">
                           <img src={Me} alt="" className="responsive" />

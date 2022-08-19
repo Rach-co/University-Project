@@ -8,11 +8,7 @@
     margin: 0px auto;
 } 
   
-.white {
-     color: #fff !important;
-}
- 
-.row {
+.study__row {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -24,7 +20,7 @@
 
 .study__heading {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 67px;
     color: #1D2939;
     margin-bottom: 30px;
@@ -34,7 +30,8 @@
 
 .study__text {
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 14px;
+    text-align: justify;
 
 }
 
@@ -45,7 +42,7 @@
 }
 
 
-.col__3{
+.study__col{
     max-width: 50%;
     display: flex;
     padding: 15px 15px 0 15px;
@@ -87,7 +84,7 @@
 
 
 @media only screen and (max-width: 1024px) {
-    .col__3 {
+    .study__col {
         max-width: 100%;
     }
 

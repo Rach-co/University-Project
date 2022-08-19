@@ -9,6 +9,9 @@ import Facilities from './components/Facilities/Facilities';
 import Updates from './components/Updates/Updates';
 import Apply from './components/Apply/Apply';
 import Events from './components/Events/Events';
+import Reviews from './components/Reviews/Reviews';
+import Newsletter from './components/Newsletter/Newsletter';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
       <Updates />
       <Apply />
       <Events />
+      <Reviews />
+      <Newsletter />
+      <Footer />
     </>
   );
 }

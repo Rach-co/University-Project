@@ -1,0 +1,138 @@
+.container {
+    width: 80%;
+    margin: 0px auto;
+ } 
+  
+ 
+.footer {
+    width: 100%;
+    background: #16181C;
+    color: #fff;
+}
+
+.footer__space {
+    padding: 50px 0;
+    
+ }
+ 
+
+.main__content {
+    display: flex;
+}
+
+.footer__box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.footer__heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__content {
+    margin: 20px 0 0 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.footer__socials {
+    margin: 20px 0 0 0;
+}
+
+.footer__socials a {
+    padding: 0 2px;
+}
+
+.footer__icon {
+    height: 20px;
+    width: 20px;
+    background: #1a1a1a;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.footer__icon:hover {
+    background: red;
+}
+
+.footer__left {
+    text-align: justify;
+}
+
+.footer__place {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.footer__address-icon {
+    font-size: 20px;
+    background: #1a1a1a;
+    height: 20px;
+    width: 20px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.footer__address-icon:hover {
+    background: #fff;
+}
+
+.footer__text {
+    font-size: 13px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.footer__copy-text {
+    color: #fff;
+    text-align: center;
+    border-top: 1px rgb(99, 94, 94) solid;
+    padding: 20px 0 10px 0;
+    font-size: 13px;
+}
+
+.footer__copy {
+    background: #16181C;
+
+}
+
+@media only screen and (max-width: 900px) {
+   .footer {
+    position: relative;
+
+   }
+
+   .main__content {
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+    
+   .footer__box {
+    margin: 15px 0;
+    padding: 10px 0;
+   }
+
+   .footer__copy-text {
+    color: #fff;
+    text-align: center;
+    border-top: 1px rgb(99, 94, 94) solid;
+    padding: 20px 40px 10px 40px;
+    font-size: 13px;
+}
+ 
+}

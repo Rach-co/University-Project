@@ -11,8 +11,8 @@ function Facilities () {
         <section id="facilities">
           <div className="facilities facilities__space">
                 <div className="container">
-                    <div className="row">
-                        <div className="col__5">
+                    <div className="facilities__row">
+                        <div className="facilities__col">
                         <h1 className="facilities__heading">
                          Our Facilities
                       </h1>    
@@ -21,7 +21,7 @@ function Facilities () {
 
                       </div>
 
-                      <div className="row__5">
+                      <div className="facilities__mini-row">
                         <div className="facilities__logo">
                         <FaNewspaper className="facilities__badge"/>
                          <div className="facilities__details">
@@ -49,7 +49,7 @@ function Facilities () {
                    
                      </div>
 
-                        <div className="col__5"> 
+                        <div className="facilities__col"> 
                      
                            <div className='player-wrapper'>
                              <ReactPlayer

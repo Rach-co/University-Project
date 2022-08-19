@@ -7,16 +7,12 @@
     width: 80%;
     margin: 0px auto;
  } 
-  
- .white {
-     color: #fff !important;
- }
  
  .d__flex {
     display: flex;
  }
  
- .row {
+ .about__row {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -28,10 +24,10 @@
 
 .about__heading {
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 87px;
     color: #1D2939;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: start;
 }
 
@@ -41,8 +37,9 @@
 
 .about__meta {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
+    text-align: justify;
 }
 
 .about__sub-heading {
@@ -54,16 +51,17 @@
     margin-bottom: 15px;
 }
 
-.col__2{
+.about__col{
     max-width: 50%;
     display: flex;
     padding: 15px;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
  }
 
- .component__space {
-    padding: 30px 0;
+ .about__space {
+    padding: 50px 0;
  }
  
  .pointer {
@@ -132,15 +130,9 @@
 
 .video__icon {
     margin-right: 0.3rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #fff;
 }
-  
-.icon {
-    font-size: 2rem;
-    color: #fff;
-}
-
 
 .player-wrapper {
     position: relative;
@@ -158,12 +150,12 @@
 
 
 @media only screen and (max-width: 1024px) {
-      .col__2 {
+      .about__col {
        max-width: 100%;
       }
 
       .about__heading {
-        font-size: 50px;
+        font-size: 45px;
       } 
 
  }

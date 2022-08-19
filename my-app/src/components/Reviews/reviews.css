@@ -1,4 +1,4 @@
-.updates__button {
+.reviews__button {
     padding: 20px 0px;
 }
 
@@ -13,7 +13,7 @@
  }
 
  
- .updates__row {
+ .reviews__row {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -24,57 +24,62 @@
 
 
 
-.updates__col{
-    max-width: 32%;
+.reviews__col{
+    max-width: 25%;
     display: flex;
     padding: 15px;
     justify-content: center;
     flex-direction: column;
  }
 
-.gallery {
-    width: 100%;
+.students__reviews {
+    text-align: center;
 }
 
-.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+.reviews__text {
+    max-width: 50%;
+    margin-bottom: 25px;
+    font-size: 14px;
+    text-align: justify;
+    color: #473558;
 
 }
 
-.updates__image {
-    width: 100%;
-    height: auto;
+
+.reviews__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+
 }
 
-.updates__description {
-    font-weight: 600;
+.reviews__description {
+    font-weight: 550;
+    font-size: 18px;
     max-width: 90%;
     color: #291b37;
     margin: 3px;
     padding: 3px 3px 3px 0;
 }
 
-.updates__more {
-    text-decoration: underline;
-    font-weight: 500;
+.reviews__more {
+    font-weight: 200;
     color: #473558;
-    margin: 1px;
+    margin: 5px;
     font-size: 14px;
     text-transform: capitalize;
 }
 
-.updates__date {
-    font-weight: 250;
+.reviews__date {
     color: #473558;
-    margin: 3px;
+    margin-top: 18px;
     font-size: 12px;
-    text-transform: capitalize;
+
 }
 
 
-.updates__space {
+.reviews__space {
     padding: 5px 30px 5px 30px;
     
  }
@@ -83,7 +88,7 @@
     cursor: pointer;
  }
 
- .facilities__heading {
+ .reviews__heading {
     font-weight: 500;
     font-size: 37px;
     line-height: 87px;
@@ -91,19 +96,20 @@
     margin-bottom: 10px;
     text-align: start;
     align-items: flex-start;
+
 }
 
 
-.updates__cola{
+.reviews__cola{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 30px;
 
  }
 
 
-.updates__button .button {
+.reviews__button .button {
     background-color: #473558;
     text-transform: capitalize;
     border-radius: 4px;
@@ -118,46 +124,42 @@
     width: 170px;
 }
 
-.updates__button .button:hover {
+.reviews__button .button:hover {
     background:#fff;
     color: #473558;
 }
 
+
+
 @media only screen and (max-width: 1024px) {
-      .updates__col {
+   .reviews__text {
+      max-width: 100%;
+   }
+    
+}
+
+@media only screen and (max-width: 960px) {
+    .reviews__col {
        max-width: 100%;
-      }
-      .updates__space {
+    }
+
+    .reviews__space {
         padding: 0;
         
-     }
+    }
 
-     .updates__cola{
+    .reviews__text {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .reviews__cola{
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin-left: 5px;
     
      }
-    
-
-
       
  }
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
 
